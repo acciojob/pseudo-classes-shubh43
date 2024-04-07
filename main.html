@@ -5,25 +5,51 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
+	<style>
+		body{
+	background-color:rgb(135, 206, 235);
+}
+		div:first-child{
+			background-color:black;
+		}
+		.first-child{
+			background-color:black;
+			color:white;
+		}
+		.last-child{
+			color:red;
+		}
+		.list_odd{
+			background-color:white;
+		}
+		.list_even{
+			background-color:grey;
+		}
+		
+		li{
+			width:50%;
+			padding:10px;
+		}
+	</style>
 
-<body>
+<body class="body">
 	<!-- the entire body must be written by student -->
-
-	<div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo necessitatibus soluta aut vel ad rerum sint ea modi provident suscipit? Eaque obcaecati et amet eum numquam, eveniet blanditiis minus ad.</p>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit fugit corrupti minus repellat quaerat numquam rem atque voluptate repellendus officia tempore soluta voluptatum enim, nihil tempora eligendi consequuntur commodi laboriosam.</p>
-
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi recusandae id in, voluptatum explicabo consectetur quibusdam commodi, praesentium, aperiam aliquid accusantium harum exercitationem ipsum non quisquam ipsam fuga odit earum.</p>
-        </div>
-
-        <ul>
-            <li id="t1" class="egg">First Item</li>
-            <li id="t2" class="egg">Second Item</li>
-            <li id="t3" class="egg">Third Item</li>
-            <li id="t4" class="egg">Fourth Item</li>
-            <li id="t5" class="egg">Fifth Item</li>
-        </ul>
+	<p class="first-child">
+		First Paragraph
+	</p>
+	<p>
+		Second Paragraph
+	</p>
+	<p class="last-child">
+		Third Paragraph
+	</p>
+	<ul>
+		<li class="list_odd" style="font-size:22px;">First item</li>
+		<li class="list_even">Second item</li>
+		<li style="background-color:pink;">Third item</li>
+		<li class="list_even">Fourth item</li>
+		<li class="list_odd" style="font-size:22px;">Fifth item</li>
+	</ul>
     <script type="text/javascript" src="./script.js">
 </script>
 
